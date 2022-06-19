@@ -1,0 +1,69 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 1/13;
+    grid-column: 1/5;
+    background:black;
+    background-size:cover;
+}
+
+.SignUpPaper{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.netra{
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.links{
+    color:#01bf71;
+    text-decoration:none;
+}
+.flex{
+    display: flex;
+    font-size: 12px;
+    color: white;
+}
+.flex div{
+    margin:5px;
+}
+
+#signUpForm{
+    width: 90%;
+}
+
+label{
+    color: white;
+    margin-top: 10px;
+}
+
+.dropdown{
+    padding-right: 10px;
+        padding-left: 10px;
+        background: #fff;
+        border:1px solid white;
+        border-radius: 5px;
+        height: 40px;
+        box-shadow: 2px 3px 5px -1px rgba(0,0,0,0.2);
+        width:100%;
+        text-decoration: none;
+}
+
+.roleassign{
+    color: white;
+    font-size: 12px;
+    margin-top: 6px;
+}
